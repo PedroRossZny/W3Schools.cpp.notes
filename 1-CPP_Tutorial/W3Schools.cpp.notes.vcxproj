@@ -19,7 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="challenges\C001.cpp" />
+    <ClCompile Include="challenges\C001.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="exercises\ex001.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -29,11 +31,13 @@
     <ClCompile Include="exercises\ex003.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="exercises\ex004.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="notes\ex001-ex002.md" />
     <None Include="notes\ex001.md" />
     <None Include="notes\ex003.md" />
+    <None Include="notes\ex004.md" />
     <None Include="statements\001.md" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
