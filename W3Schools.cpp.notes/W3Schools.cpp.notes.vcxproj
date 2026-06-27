@@ -18,10 +18,16 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="1-CPP_Tutorial\exercises\ex001.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="1-CPP_Tutorial\notes\ex001.md" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{0c721710-e0f6-412a-89b4-16a8ae99e612}</ProjectGuid>
+    <ProjectGuid>{1C980DA4-1AF8-14CC-3BDC-0B386490A98D}</ProjectGuid>
     <RootNamespace>W3Schoolscppnotes</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -138,12 +144,6 @@
       <EnableSegmentHeap>true</EnableSegmentHeap>
     </Manifest>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="ex001.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ex001.md" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

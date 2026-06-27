@@ -21,12 +21,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ex001.cpp">
+    <ClCompile Include="1-CPP_Tutorial\exercises\ex001.cpp">
       <Filter>Arquivos de Origem\exercises</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ex001.md">
+    <None Include="1-CPP_Tutorial\notes\ex001.md">
       <Filter>Arquivos de Origem\notes</Filter>
     </None>
   </ItemGroup>
