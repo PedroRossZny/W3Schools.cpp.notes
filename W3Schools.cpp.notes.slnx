@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="W3Schools.cpp.notes/W3Schools.cpp.notes.vcxproj" />
+  <Project Path="1-CPP_Tutorial/W3Schools.cpp.notes.vcxproj" Id="1c980da4-1af8-14cc-3bdc-0b386490a98d" />
 </Solution>
