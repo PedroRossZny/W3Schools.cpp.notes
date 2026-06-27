@@ -19,6 +19,12 @@
     <Filter Include="Arquivos de Origem\notes">
       <UniqueIdentifier>{41178f8d-a04a-4604-a071-020dce03fa5a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Arquivos de Origem\challenges">
+      <UniqueIdentifier>{bc930c24-d7ac-42a6-a901-8db8d95ef7fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\statements">
+      <UniqueIdentifier>{bc48f127-3905-446a-8a30-6101d68eedc0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="exercises\ex002.cpp">
@@ -30,6 +36,9 @@
     <ClCompile Include="exercises\ex001.cpp">
       <Filter>Arquivos de Origem\exercises</Filter>
     </ClCompile>
+    <ClCompile Include="challenges\C001.cpp">
+      <Filter>Arquivos de Origem\challenges</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="notes\ex001-ex002.md">
@@ -40,6 +49,9 @@
     </None>
     <None Include="notes\ex003.md">
       <Filter>Arquivos de Origem\notes</Filter>
+    </None>
+    <None Include="statements\001.md">
+      <Filter>Arquivos de Origem\statements</Filter>
     </None>
   </ItemGroup>
 </Project>
