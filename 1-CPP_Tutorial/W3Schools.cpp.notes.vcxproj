@@ -49,7 +49,19 @@
     <ClCompile Include="exercises\ex007.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="exercises\ex008.cpp" />
+    <ClCompile Include="exercises\ex008.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="exercises\ex009.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="exercises\ex010.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="exercises\ex011.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="exercises\ex012.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="notes\ex001-ex002.md" />
@@ -59,6 +71,7 @@
     <None Include="notes\ex005.md" />
     <None Include="notes\ex006-ex007.md" />
     <None Include="notes\ex008.md" />
+    <None Include="notes\ex009-ex012.md" />
     <None Include="statements\001.md" />
     <None Include="statements\002.md" />
   </ItemGroup>
