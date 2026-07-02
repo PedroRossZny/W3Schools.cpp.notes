@@ -57,6 +57,9 @@
     <ClCompile Include="challenges\C002Part2.cpp">
       <Filter>Arquivos de Origem\challenges</Filter>
     </ClCompile>
+    <ClCompile Include="exercises\ex008.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="notes\ex001-ex002.md">
@@ -83,5 +86,6 @@
     <None Include="statements\002.md">
       <Filter>Arquivos de Origem\statements</Filter>
     </None>
+    <None Include="notes\ex008.md" />
   </ItemGroup>
 </Project>
