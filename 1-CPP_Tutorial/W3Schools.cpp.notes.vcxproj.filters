@@ -87,6 +87,12 @@
     <ClCompile Include="exercises\ex017.cpp">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
+    <ClCompile Include="exercises\ex018.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="exercises\ex019.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="notes\ex001-ex002.md">
@@ -118,5 +124,6 @@
     <None Include="notes\ex013-ex014.md" />
     <None Include="notes\ex015.md" />
     <None Include="notes\ex016-ex017.md" />
+    <None Include="notes\ex018-ex019.md" />
   </ItemGroup>
 </Project>
