@@ -106,7 +106,10 @@
     <ClCompile Include="exercises\ex024.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="exercises\ex025.cpp" />
+    <ClCompile Include="exercises\ex025.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="exercises\ex026.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="notes\ex024.md" />
@@ -126,6 +129,7 @@
     <None Include="notes\ex022.md" />
     <None Include="notes\ex023.md" />
     <None Include="notes\ex025.md" />
+    <None Include="notes\ex026.md" />
     <None Include="statements\001.md" />
     <None Include="statements\002.md" />
     <None Include="statements\003.md" />
