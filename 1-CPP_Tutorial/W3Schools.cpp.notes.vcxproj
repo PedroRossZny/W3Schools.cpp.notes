@@ -37,7 +37,9 @@
     <ClCompile Include="challenges\C003Part2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="challenges\C004Part2.cpp" />
+    <ClCompile Include="challenges\C004Part2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="exercises\ex001.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -122,6 +124,7 @@
     <ClCompile Include="exercises\ex028.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="exercises\ex030.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="notes\ex024.md" />
@@ -144,6 +147,7 @@
     <None Include="notes\ex026.md" />
     <None Include="notes\ex027.md" />
     <None Include="notes\ex028.md" />
+    <None Include="notes\ex030.md" />
     <None Include="statements\001.md" />
     <None Include="statements\002.md" />
     <None Include="statements\003.md" />
